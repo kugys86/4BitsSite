@@ -3,7 +3,9 @@
 <head>
 	<title>4BitsRepairs</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 	<style type="text/css">
 		body, html {
             padding: 0px;
@@ -43,24 +45,10 @@
 			    font-weight: lighter;
             }
             
-			a {
-				text-decoration: none;
-				color: #20ebfc;
-				border: 1px solid #20ebfc;
-				width: auto;
-                margin-top: 110px;
-				margin-right: auto;
-				margin-left: auto;
-				display: block;
-				padding: 15px;
-				font-weight: bold;
-				border-radius: 2px;
-			}
-
-			a:hover {
-				color: #000;
-				background-color: #20ebfc;
-			}
+            a:hover {;                
+                transform: scale(1.1);
+            }
+            
 		}
 	</style>
 </head>
@@ -68,7 +56,9 @@
 	<header>
 		<h1>4Bits Repairs</h1>
 		<h3>Consumer electronic repairs matching your budget</h3>
-		<a href="">Request a repair</a>
-	</header>
+        <div class="row center">
+		  <a class="black-text btn btn waves-effect waves-light" href="intergration.html">Request a repair</a>
+        </div>
+    </header>
 </body>
 </html>
